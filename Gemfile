@@ -48,6 +48,7 @@ group :development, :test do
   gem 'byebug', '~> 11.1.3', platforms: %i[mri mingw x64_mingw]
 
   # Added by Altcademy.com
+  gem 'rails_admin', '~> 3.0'
   gem 'awesome_print', '~> 1.9'
   gem 'dotenv-rails', '~> 2.8'
   gem 'factory_bot_rails', '~> 6.2'
@@ -73,3 +74,4 @@ group :production do
   # Use pg as the database for Active Record
   gem 'pg', '~> 1.4.3'
 end
+gem 'sassc-rails'
